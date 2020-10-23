@@ -71,6 +71,10 @@ body {
     overflow: hidden;
 }
 
+h1, h2 {
+    font-family: 'Ramabhadra', sans-serif;
+}
+
 .page {
     height: 90vh;
     overflow: auto;
@@ -82,12 +86,13 @@ body {
     height: 100%;
     display: grid;
     grid-template-rows: 0.8fr 1fr 1fr;
-    background: url('/images/landing.jpg');
+    background: url('../images/landing.jpg');
     background-size: cover;
     background-attachment: fixed
 }
 
-.main-heading {
+.main-heading h1 {
+
     font-family: 'Ramabhadra', sans-serif;
     font-size: 6em;
     text-align: center;
@@ -104,6 +109,12 @@ body {
     font-style: italic
 }
 
+h2 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 3.9em;
+    font-weight: bolder;
+}
+
 .about-us {
     height: 100%;
     display: grid;
@@ -112,20 +123,17 @@ body {
 }
 
 .about-us-image {
-    background: url('/images/about-bg.png');
+    background: url('../images/about-bg.png');
     /* background-attachment: fixed; */
     background-position-x: 800px;
     background-size: cover
 }
 
 .about-us-title {
-    font-family: 'Ramabhadra', sans-serif;
-    font-size: 3.9em;
     text-align: left;
-    font-weight: bolder;
-    color: #25384f;
     align-self: flex-end;
-    margin-left: 50px
+    margin-left: 50px;
+    color: #25384f;
 }
 
 .about-us .content {
@@ -149,14 +157,10 @@ body {
 }
 
 .contribute-title {
-    font-family: 'Ramabhadra',
-        sans-serif;
-    font-size: 3.9em;
     text-align: center;
-    font-weight: bolder;
-    color: #25384f;
     align-self: center;
-    padding: 50px 0
+    padding: 50px 0;
+    color: #25384f;
 }
 
 .contribute-content {
@@ -219,11 +223,7 @@ body {
 }
 
 .projects-title {
-    font-family: 'Ramabhadra',
-        sans-serif;
-    font-size: 3.9em;
     text-align: center;
-    font-weight: bolder;
     color: #d2e063;
     padding: 40px 0
 }
@@ -264,7 +264,8 @@ body {
 .join-us h2 {
     font-family: 'Righteous',
         sans-serif;
-    color: #25384f
+    color: #25384f;
+    font-size: 3.56rem;
 }
 
 .join-us-content p {
@@ -278,11 +279,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-h1 {
-    font-family: 'Righteous', sans-serif;
-    color: #25384f
 }
 
 #links-card {
@@ -492,10 +488,6 @@ h1 {
     .text {
         transform: none;
         text-align: center
-    }
-
-    h1 {
-        font-size: 0.9em;
     }
 
 

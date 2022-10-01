@@ -47,3 +47,13 @@ We have adopted a code of conduct to define community standards, signal a welcom
 This project is freely available for free non-commercial/ commercial use, and may be redistributed under these conditions. Please, see the [license](https://github.com/devscollab/devscollab.github.io/blob/master/LICENSE) for further details.
 
 ## Keep Coding </>
+
+## Send Us Queries or Feedback
+
+It is a project for learning, and you can contact us if you...
+
+1. ...have some valuable inputs to share
+2. ...want to work on it
+3. ...find any bug
+4. ...want to share a feedback on the work
+5. ...etc.
